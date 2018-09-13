@@ -24,8 +24,8 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View >
-        <Text>Album List</Text>
+      <View style={{flex: 1}} >
+        <Text>Album</Text>
         <Explore/>
       </View>
     );
